@@ -7,13 +7,21 @@ h1 {
   color: #333333;
   margin-left: 50px;
 }
-img {
+.img {
+  width: 500px;
+  height: 300px;
+  padding: 50px 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
   margin-top: 90px;
-  margin-left: 230px;
-  width: 650px;
-  height: 400px;
+  margin-left: 526px;
 }
-
+img {
+  height: 290px;
+  width: 480px;
+  margin: auto;
+}
 .menuhead {
   font-size: 18px;
   height: 50px;
@@ -30,6 +38,9 @@ img {
   display: inline-block;
   background-color: #515151;
 }
+.g:hover {
+  background-color: #3f3f3f;
+}
 
 .t {
   width: 190px;
@@ -37,43 +48,75 @@ img {
   text-align: center;
   line-height: 50px;
   display: inline-block;
-  background-color: black;
+  background-color: #515151;
 }
-
+.t:hover {
+  background-color: #3f3f3f;
+}
 .o {
   width: 190px;
-  height: 30px;
+  height: 50px;
   text-align: center;
   line-height: 50px;
   display: inline-block;
   background-color: #515151;
+}
+.o:hover {
+  background-color: #3f3f3f;
 }
 .c {
   width: 190px;
-  height: 30px;
+  height: 50px;
   text-align: center;
   line-height: 50px;
   display: inline-block;
   background-color: #515151;
+}
+.c:hover {
+  background-color: #3f3f3f;
 }
 .menu {
   font-size: 15px;
   margin-top: 80px;
-  margin-left: 40px;
+  margin-left: 5px;
   color: grey;
   float: left;
 }
 
 #N, #Pl, #Tel, #TV, #BT, #Auto {
-   margin-top: 20px;
+   line-height: 45px;
+   width: 330px;
+   padding-left: 50px;
+   font-size: 20px;
+   border-style: solid;
+   border-color: grey;
+   border-width: 1px;
 }
-#Tel {
-  color: black;
+#N, #Pl, #Tel, #TV, #BT {
+  border-bottom: none;
+}
+#N:hover {
+  background-color: #f1f1f1;
+}
+#Pl:hover {
+  background-color: #f1f1f1;
+}
+#Tel:hover {
+  background-color: #f1f1f1;
+}
+#TV:hover {
+  background-color: #f1f1f1;
+}
+#BT:hover {
+  background-color: #f1f1f1;
+}
+#Auto:hover {
+  background-color: #f1f1f1;
 }
 #Lorem {
   font-size: 18px;
-  width: 730px;
-  margin-left: 388px;
+  width: 650px;
+  margin-left: 560px;
   margin-top: 50px;
   line-height: 25px;
 }
@@ -92,13 +135,18 @@ img {
   line-height: 40px;
   display: inline-block;
 }
+#fg:hover {
+  text-decoration: underline;
+}
 #ft {
   width: 190px;
   height: 40px;
   text-align: center;
   line-height: 40px;
-  text-decoration: underline;
   display: inline-block;
+}
+#ft:hover {
+  text-decoration: underline;
 }
 #fo {
   width: 190px;
@@ -107,12 +155,18 @@ img {
   line-height: 40px;
   display: inline-block;
 }
+#fo:hover {
+  text-decoration: underline;
+}
 #fc {
   width: 190px;
   height: 40px;
   text-align: center;
   line-height: 40px;
   display: inline-block;
+}
+#fc:hover {
+  text-decoration: underline;
 }
 #all {
   margin-left: 150px;
