@@ -1,93 +1,110 @@
 * {
-  font-family: Verdana;
+  font-family: verdana;
   font-weight: lighter;
+}
+.wrapper {
+  width: 965px;
+  height: 950px;
+  margin: 0 auto;
 }
 h1 {
   font-size: 50px;
   color: #333333;
-  margin-left: 50px;
 }
 .img {
-  width: 500px;
-  height: 300px;
-  padding: 50px 100px;
+  height: 295px;
+  width: 485px;
+  padding: 40px 80px;
   border-style: solid;
   border-width: 1px;
   border-color: grey;
-  margin-top: 90px;
-  margin-left: 526px;
+  margin-top: 40px;
+  margin-left: 315px;
 }
 img {
-  height: 290px;
-  width: 480px;
-  margin: auto;
+  height: 295px;
+  width: 485px;
 }
 .menuhead {
-  font-size: 18px;
-  height: 50px;
-  width: 1230px;
+  font-size: 14px;
+  height: 40px;
+  width: 965px;
   color: #ffffff;
-  background-color: #515151;
+  background: linear-gradient(#5e5e5e, #444343);
 }
-
 .g {
-  width: 190px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   display: inline-block;
-  background-color: #515151;
+  background: linear-gradient(#5e5e5e, #444343);
 }
 .g:hover {
-  background-color: #3f3f3f;
+  background: linear-gradient(#4a4a4a, #2e2e2e);
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: gray;
 }
 
 .t {
-  width: 190px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   display: inline-block;
-  background-color: #515151;
+  background: linear-gradient(#5e5e5e, #444343);
 }
 .t:hover {
-  background-color: #3f3f3f;
+  background: linear-gradient(#4a4a4a, #2e2e2e);
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: gray;
 }
 .o {
-  width: 190px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   display: inline-block;
-  background-color: #515151;
+  background: linear-gradient(#5e5e5e, #444343);
 }
 .o:hover {
-  background-color: #3f3f3f;
+  background: linear-gradient(#4a4a4a, #2e2e2e);
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: gray;
 }
 .c {
-  width: 190px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   display: inline-block;
-  background-color: #515151;
+  background: linear-gradient(#5e5e5e, #444343);
 }
 .c:hover {
-  background-color: #3f3f3f;
+  background: linear-gradient(#4a4a4a, #2e2e2e);
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: thin;
+    border-color: gray;
 }
 .menu {
-  font-size: 15px;
-  margin-top: 90px;
-  margin-left: 5px;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: 1px;
   color: grey;
   float: left;
 }
 
 #N, #Pl, #Tel, #TV, #BT, #Auto {
-   line-height: 45px;
-   width: 330px;
-   padding-left: 50px;
-   font-size: 20px;
+   line-height: 40px;
+   width: 240px;
+   padding-left: 20px;
    border-style: solid;
    border-color: grey;
    border-width: 1px;
@@ -114,22 +131,22 @@ img {
   background-color: #f1f1f1;
 }
 #Lorem {
-  font-size: 18px;
-  width: 650px;
-  margin-left: 560px;
+  font-size: 12px;
+  width: 600px;
+  margin-left: 340px;
   margin-top: 50px;
   line-height: 25px;
 }
 .footer {
   margin-top: 50px;
-  font-size: 16px;
+  font-size: 14px;
   height: 40px;
-  width: 1230px;
+  width: 965px;
   color: #black;
   background-color: #e1e1e1;
 }
 #fg {
-  width: 190px;
+  width: 120px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -139,7 +156,7 @@ img {
   text-decoration: underline;
 }
 #ft {
-  width: 190px;
+  width: 120px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -149,7 +166,7 @@ img {
   text-decoration: underline;
 }
 #fo {
-  width: 190px;
+  width: 120px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -159,7 +176,7 @@ img {
   text-decoration: underline;
 }
 #fc {
-  width: 190px;
+  width: 120px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -169,8 +186,8 @@ img {
   text-decoration: underline;
 }
 #all {
-  margin-left: 150px;
-  width: 250px;
+  margin-left: 230px;
+  width: 190px;
   height: 40px;
   text-align: right;
   line-height: 40px;
