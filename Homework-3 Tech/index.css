@@ -1,5 +1,5 @@
 * {
-  font-family: verdana;
+  font-family: Open Sans;
   font-weight: lighter;
 }
 .wrapper {
@@ -7,10 +7,7 @@
   height: 950px;
   margin: 0 auto;
   padding: 0 150px;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-width: thin;
-  border-color: grey;
+  box-shadow: 0 0 1px 1px #bdbdbd;
 }
 #Fit {
   height: 100px;
@@ -22,7 +19,7 @@
   padding: 40px 80px;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: #c8c8c8;
   margin-top: 40px;
   margin-left: 315px;
 }
@@ -127,7 +124,7 @@ img {
    width: 240px;
    padding-left: 20px;
    border-style: solid;
-   border-color: black;
+   border-color: #c8c8c8;
    border-width: 1px;
 }
 #N, #Pl, #Tel, #TV, #BT {
@@ -158,11 +155,11 @@ img {
   color: black;
 }
 #Lorem {
-  font-size: 12px;
+  font-size: 10px;
   width: 600px;
   margin-left: 340px;
   margin-top: 50px;
-  line-height: 25px;
+  line-height: 15px;
 }
 .footer {
   margin-top: 50px;
