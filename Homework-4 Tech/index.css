@@ -1,0 +1,226 @@
+body {
+  background-image: url("bg.jpg");
+}
+.wrapper{
+  margin: 0 auto;
+  margin-bottom: 50px;
+  height: 1000px;
+  width: 1000px;
+  box-shadow: 0px 2px 8px 1px #9ea6a8;
+  position: relative;
+}
+.A-H {
+height: 160px;
+width: 975px;
+padding-left: 25px;
+padding-top: 9px;
+margin-top: 40px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+.img {
+  width: 310px;
+}
+.put {
+  position: absolute;
+  top: 105px;
+  left: 95px;
+}
+#put {
+  color: #128aa7;
+  font-size: 12px;
+  font-family: tahoma;
+
+}
+.nashi {
+  width: 170px;
+  height: 200px;
+  position: absolute;
+    top: 10px;
+    left: 800px;
+  color: #128aa7;
+  font-family: tahoma;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 5px;
+}
+.india {
+  width: 60px;
+  height: 50px;
+position: absolute;
+     top: 110px;
+     left: 620px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-decoration: underline;
+  color: #128aa7;
+  text-align: center;
+  line-height: 1px;
+  }
+.nepal {
+  width: 60px;
+  height: 50px;
+position: absolute;
+     top: 110px;
+     left: 680px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-decoration: underline;
+  color: #128aa7;
+  text-align: center;
+  line-height: 1px;
+}
+.tibet {
+
+  width: 60px;
+  height: 50px;
+position: absolute;
+     top: 110px;
+     left: 740px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-decoration: underline;
+  color: #128aa7;
+  text-align: center;
+  line-height: 1px;
+
+}
+.butan {
+  width: 60px;
+  height: 50px;
+position: absolute;
+     top: 110px;
+     left: 800px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-decoration: underline;
+  color: #128aa7;
+  text-align: center;
+  line-height: 1px;
+
+}
+.shri {
+  width: 60px;
+  height: 50px;
+position: absolute;
+     top: 110px;
+     left: 860px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-decoration: underline;
+  color: #128aa7;
+  text-align: center;
+  line-height: 1px;
+}
+.mald {
+  width: 60px;
+  height: 50px;
+position: absolute;
+     top: 110px;
+     left: 920px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-decoration: underline;
+  color: #128aa7;
+  text-align: center;
+  line-height: 1px;
+}
+.ocean {
+position: absolute;
+top: 175px;
+left: 0;
+
+}
+.menu {
+  position: absolute;
+  top: 413px;
+  height: 30px;
+  width: 1000px;
+  background: linear-gradient(#373737, #303030);
+  box-shadow: 0 3px 3px #969696;
+}
+.menuhorisont {
+  list-style: none;
+  position: absolute;
+  display: block;
+  top: -10px;
+}
+.menuhorisont li {
+  float: left;
+  margin-right: 66px;
+}
+.menuhorisont li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 14px;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 24px;
+    left: -5px;
+    background: linear-gradient(#373737, #303030);
+    box-shadow: 3px 3px 3px #969696;
+    z-index: 1;
+}
+ul.submenu li {
+    display: block;
+    height: 30px;
+    width: 100px;
+}
+ul.menuhorisont li:hover ul.submenu {
+    display: block;
+}
+ul.menuhorisont  li {
+  float: left;
+  position: relative;
+}
+.foot {
+  width: 1000px;
+  height: 556px;
+  background-color: #fff;
+  position: absolute;
+  top: 444px;
+}
+h2 {
+  font-family: tahoma;
+  font-size: 18px;
+  text-align: center;
+}
+.info p {
+  font-family: tahoma;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+.info {
+  width: 210px;
+  height: 556px;
+  background: #edeef0;
+  position: absolute;
+  top: 0px;
+}
+.novo p {
+  font-family: tahoma;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+.novo {
+  width: 210px;
+  height: 556px;
+  background: #edeef0;
+  position: absolute;
+  top: 0px;
+  left: 790px;
+}
+.copy {
+  position: absolute;
+  top: 1005px;
+  left: 400px;
+  color: #cee3ec;
+  font-family: tahoma;
+  font-size: 12px;
+}
