@@ -1,8 +1,16 @@
 * {
-  font-family: tahoma;
+  font-family: open sans;
   font-weight: lighter;
   margin: 0;
   padding: 0;
+}
+@font-face {
+  font-family: open sans;
+  src: url(OpenSans-Regular.ttf);
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 .wrapper {
   width: 965px;
@@ -42,41 +50,23 @@ img {
   text-align: center;
   line-height: 40px;
   display: inline-block;
-  background: linear-gradient(#5e5e5e, #444343);
-  /*border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-image: linear-gradient(#5e5e5e, #444343);*/
-  border-style: solid;
-  border-width: thin;
-  border-image: linear-gradient(#5e5e5e, #444343);
-  border-top: none;
-  border-bottom: none;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .g:hover {
-  background: linear-gradient(#4a4a4a, #2e2e2e);
  border-color: #838383;
- border-width: 1px;
 }
-
 .t {
   width: 120px;
   height: 40px;
   text-align: center;
   line-height: 40px;
   display: inline-block;
-  background: linear-gradient(#5e5e5e, #444343);
-  border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-image: linear-gradient(#5e5e5e, #444343);
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .t:hover {
-  background: linear-gradient(#4a4a4a, #2e2e2e);
-  border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-image: none;
+border-color: #838383;
 }
 .o {
   width: 120px;
@@ -84,18 +74,11 @@ img {
   text-align: center;
   line-height: 40px;
   display: inline-block;
-  background: linear-gradient(#5e5e5e, #444343);
-  border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-image: linear-gradient(#5e5e5e, #444343);
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .o:hover {
-  background: linear-gradient(#4a4a4a, #2e2e2e);
-  border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-image: none;
+border-color: #838383;
 }
 .c {
   width: 120px;
@@ -103,18 +86,11 @@ img {
   text-align: center;
   line-height: 40px;
   display: inline-block;
-  background: linear-gradient(#5e5e5e, #444343);
-  border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-image: linear-gradient(#5e5e5e, #444343);
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .c:hover {
-  background: linear-gradient(#4a4a4a, #2e2e2e);
-    border-right-style: solid;
-    border-left-style: solid;
-    border-width: thin;
-    border-image: none;
+border-color: #838383;
 }
 .menu {
   font-size: 12px;
