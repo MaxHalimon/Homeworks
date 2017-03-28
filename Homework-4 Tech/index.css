@@ -139,7 +139,8 @@ left: 0;
 }
 .menuhorisont li {
   float: left;
-  margin-right: 65px;
+  margin-left: 25px;
+  margin-right: 35px;
 }
 .menuhorisont li a {
   color: #fff;
@@ -161,6 +162,9 @@ ul.submenu li {
     display: block;
     height: 30px;
     width: 100px;
+}
+ul.submenu li:hover {
+  display: block;
 }
 ul.menuhorisont li:hover ul.submenu {
     display: block;
