@@ -1,14 +1,14 @@
 body {
   background-image: url("bg.jpg");
 }
-.wrapper{
+.wrapper {
   margin: 0 auto;
-  margin-bottom: 50px;
-  height: 1000px;
+  padding-bottom: 30px;
+  height: 990px;
   width: 1000px;
   box-shadow: 0px 1px 8px 1px #063c53;
   position: relative;
-  border-bottom: 3px solid #031d28;
+  border-bottom: 5px solid #031d28;
 }
 .A-H {
 height: 160px;
@@ -31,7 +31,6 @@ margin-top: 40px;
   color: #128aa7;
   font-size: 12px;
   font-family: tahoma;
-
 }
 .nashi {
   width: 170px;
@@ -71,7 +70,6 @@ position: absolute;
   line-height: 1px;
 }
 .tibet {
-
   width: 60px;
   height: 50px;
 position: absolute;
@@ -81,7 +79,6 @@ position: absolute;
   font-family: tahoma;
   text-align: center;
   line-height: 1px;
-
 }
 .butan {
   width: 60px;
@@ -93,7 +90,6 @@ position: absolute;
   font-family: tahoma;
   text-align: center;
   line-height: 1px;
-
 }
 .shri {
   width: 60px;
@@ -121,7 +117,6 @@ position: absolute;
 position: absolute;
 top: 175px;
 left: 0;
-
 }
 .menu {
   position: absolute;
@@ -152,7 +147,7 @@ ul.submenu {
     display: none;
     position: absolute;
     width: 100px;
-    top: 20px;
+    top: 17px;
     left: -5px;
     background: linear-gradient(#373737, #303030);
     box-shadow: 3px 3px 3px #969696;
@@ -165,9 +160,6 @@ ul.submenu li {
     display: block;
     height: 30px;
     width: 100px;
-}
-ul.submenu li:hover {
-  display: block;
 }
 ul.menuhorisont li:hover ul.submenu {
     display: block;
@@ -219,7 +211,7 @@ h2 {
 }
 .copy {
   position: absolute;
-  top: 1005px;
+  top: 1003px;
   left: 400px;
   color: #cee3ec;
   font-family: tahoma;
