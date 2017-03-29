@@ -151,12 +151,15 @@ left: 0;
 ul.submenu {
     display: none;
     position: absolute;
-    width: 150px;
+    width: 100px;
     top: 20px;
     left: -5px;
     background: linear-gradient(#373737, #303030);
     box-shadow: 3px 3px 3px #969696;
     z-index: 1;
+}
+.submenu a {
+  margin-left: -40px;
 }
 ul.submenu li {
     display: block;
@@ -197,6 +200,7 @@ h2 {
   background: #edeef0;
   position: absolute;
   top: 0px;
+  border-right: solid 1px #c7cacf;
 }
 .novo p {
   font-family: tahoma;
@@ -211,6 +215,7 @@ h2 {
   position: absolute;
   top: 0px;
   left: 790px;
+  border-left: solid 1px #c7cacf;
 }
 .copy {
   position: absolute;
