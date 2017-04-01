@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica neue;
+}
+@font-face {
+  font-family: helvetica neue;
+  src: url(HelveticaNeue.ttf);
+}
+.wrapper {
+  width: 1210px;
+  height: 1060px;
+  margin: 0 auto;
+  background-image: url(Bg.jpg);
+  background-repeat: no-repeat;
+position: relative;
+}
+.menu {
+width: 1210px;
+height: 35px;
+position: relative;
+background-color: #074f8d;
+  font-size: 14px;
+}
+.menu a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+    color: #60b5ed;
+}
+.menu a:hover {
+  background-color: #4eabda;
+  color: #dde8f1;
+}
+.you {
+  position: absolute;
+  left: 410px;
+  height: 35px;
+  width: 95px;
+  line-height: 35px;
+  text-align: center;
+  padding-left: 15px;
+
+}
+.you:hover {
+  background-color: #4eabda;
+}
+.v {
+   position: absolute;
+   left: 525px;
+   height: 35px;
+   width: 60px;
+   line-height: 35px;
+   text-align: center;
+   padding-left: 17px;
+}
+.v:hover {
+  background-color: #4eabda;
+  color: #dde8f1;
+}
+.f {
+  position: absolute;
+  left: 600px;
+  height: 35px;
+  width: 55px;
+  line-height: 35px;
+  text-align: center;
+  padding-left: 16px;
+}
+.f:hover {
+  background-color: #4eabda;
+  color: #dde8f1;
+}
+.c {
+  position: absolute;
+  left: 672px;
+  height: 35px;
+  width: 65px;
+  line-height: 35px;
+  text-align: center;
+  padding-left: 16px;
+}
+.c:hover {
+  background-color: #4eabda;
+  color: #dde8f1;
+}
+.a {
+  position: absolute;
+  left: 753px;
+  height: 35px;
+  width: 50px;
+  line-height: 35px;
+  text-align: center;
+  padding-left: 12px;
+}
+.a:hover {
+  background-color: #4eabda;
+  color: #dde8f1;
+}
+.a img {
+margin-left: 12px;
+margin-top: 2px;
+}
+.m {
+  position: absolute;
+  left: 835px;
+  color: #fefefe;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 400;
+}
+.o {
+  position: absolute;
+  left: 970px;
+  height: 35px;
+  width: 180px;
+  line-height: 35px;
+  text-align: center;
+  padding-left: 15px;
+  color: #fefefe;
+}
+.o:hover {
+  background-image: linear-gradient(#50afdc, #2e7ac4);
+  color: #fff;
+  font-weight: 400;
+}
+.m img {
+  float: left;
+  margin-top: 5px;
+}
+.center {
+  height: 610px;
+  width: 560px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cadastre {
+  height: 60px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 180px;
+  padding-top: 5px;
+}
+.cadastre span {
+  font-size: 22px;
+  color: #fff;
+}
+#fb {
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-left: 142px;
+ }
+.ou {
+  margin: 0 auto;
+  height: 5px;
+  width: 270px;
+text-align: center;
+color: #999;
+margin-top: 100px;
+}
+
+fieldset {
+  border-width: 2px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  }
+  legend {
+    padding: 0 10px;
+  }
+#firstname, #lastname, #email, #password, #passwordc {
+width: 270px;
+height: 35px;
+margin-top: 15px;
+background-color: #100f0f;
+border: none;
+border-bottom: solid 1px #494949;
+text-align: left;
+color: #ccc;
+font-size: 15px;
+padding-left: 20px;
+}
+#firstname:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 5px 1px #4985ae;
+  border: none;
+  border: solid 1px #4985ae;
+}
+#lastname:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 5px 1px #4985ae;
+  border: none;
+  border: solid 1px #4985ae;
+}
+#email:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 5px 1px #4985ae;
+  border: none;
+  border: solid 1px #4985ae;
+}
+#password:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 5px 1px #4985ae;
+  border: none;
+  border: solid 1px #4985ae;
+}
+#passwordc:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 5px 1px #4985ae;
+  border: none;
+  border: solid 1px #4985ae;
+}
+#account {
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  background-image: linear-gradient(#67c6e6,#2e7ac4);
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+
+}
+.checkbox {
+  font-size: 15px;
+  color: #aeaca7;
+}
+.by p {
+  width: 390px;
+  color: #aeaca7;
+  margin-left: -60px;
+  font-size: 13px;
+  line-height: 20px;
+}
