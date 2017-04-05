@@ -8,8 +8,13 @@
   src: url(HelveticaNeue.ttf);
 }
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
   width: 1210px;
-  height: 1060px;
+  /*height: 1060px;*/
+  height: 100vh;
   margin: 0 auto;
   background-image: url(Bg.jpg);
   background-repeat: no-repeat;
@@ -18,7 +23,7 @@ position: relative;
 .menu {
 width: 1210px;
 height: 35px;
-position: relative;
+position:  relative;
 background-color: #074f8d;
   font-size: 14px;
 }
@@ -133,23 +138,26 @@ margin-top: 2px;
   width: 560px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .cadastre {
   height: 60px;
   line-height: 50px;
   text-align: center;
-  margin-top: 180px;
-  padding-top: 5px;
+  /*margin-top: 180px;
+  padding-top: 5px;*/
 }
 .cadastre span {
   font-size: 22px;
   color: #fff;
 }
-#fb {
-  position: absolute;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-left: 142px;
+.fb {
+  padding-top: 40px;
  }
 .ou {
   margin: 0 auto;
