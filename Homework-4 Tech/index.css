@@ -148,7 +148,7 @@ ul.submenu {
     width: 100px;
     top: 21px;
     left: -10px;
-    padding: -10px;
+    padding-top: -5px;
     background: linear-gradient(#373737, #303030);
     box-shadow: 3px 3px 3px #969696;
     z-index: 1;
