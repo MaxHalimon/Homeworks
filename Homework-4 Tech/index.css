@@ -142,11 +142,14 @@ left: 0;
   font-family: tahoma;
   font-size: 14px;
 }
+.submen {
+  padding-top: 10px;
+}
 ul.submenu {
     display: none;
     position: absolute;
     width: 100px;
-    top: 21px;
+    top: 24px;
     left: -10px;
     padding-top: -5px;
     background: linear-gradient(#373737, #303030);
