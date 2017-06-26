@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1.1</title>
+   <script type="text/javascript">
+    	
+
+   </script>      
+</head>
+<body>
+   <script type="text/javascript">
+
+function pow(base,exp){
+var result = 1;
+var x = exp;
+if (exp < 0) {x = - exp}
+for(var cnt = 0; cnt < x; cnt++){
+result *= base };
+if (exp < 0) {return 1/result;}
+	else {return result;}
+}
+
+   	var a,b;
+   	a = prompt("chislo");
+   	b = prompt("stepen");
+   console.log("result = " + pow(a,b));
+   </script> 
+
+</body>
+</html>
