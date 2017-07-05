@@ -1,0 +1,229 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+    .home-content h1 {
+    font-size: 40px;
+	}
+	.signup-process .signup-details h5 {
+    font-size: 21px;
+	}
+	.signup-process .signup-details .number li {
+    font-size: 13px;
+
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+}
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+    .container {
+    	display: 768px;
+    }
+    footer .design {
+    	margin-top: 40px;
+    }
+    .starts_slider {
+		background-position: 40% 0%;
+	}
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 70%;
+    }
+	.home-content h1 {
+    font-size: 22px;
+	}
+	.navbar-default .collapse .login a {
+    margin-left:0;
+    width:22%;
+	}
+	.about li {
+		margin: 0 auto;
+		display: block;
+		width: 60%;
+	}
+	.about_icon {
+		height: 100px;
+	}
+	.starts_slider {
+		background-position: 40% 0%;
+		display: block;
+		margin: 0 auto;
+	}
+	.starts_recentupdates {
+		margin: 0 auto;
+		display: block;
+		float: none;
+    margin-bottom: 130px;
+	}
+	/*.navbar-nav {
+    background: black;
+    opacity: 0.7;
+
+}*/
+	.navbar-collapse.in {
+	position: absolute;
+    background: #3c2f44;
+    opacity: 0.9;
+    /* margin: 0 auto; */
+    left: 15%;
+    width: 80%;
+    /* text-align: center; */
+    left: center;
+    border-radius: 15px;
+	}
+	.slider img {
+		margin-right: 0px;
+	}
+   .slider img {
+		width: 50%;
+	}
+	.starts_slider {
+		width: 80%;
+	}
+	.about li {
+		width: 80%;
+	}
+	.starts_recentupdates {
+		width: 80%;
+	}
+	footer ul li {
+		margin-right: 30px;
+	}
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }
+    header {
+    	    height: 600px;
+    }
+	.home-content h1 {
+    font-size:13px;
+	}
+   .navbar-default .collapse .login a {
+    margin-left: 0;
+    width: 23%;
+	}
+	.slider img {
+		width: 40%;
+	}
+	.slider_txt .txt {
+		display: none;
+	}
+	.slider_txt .h1 {
+		margin: 0px;
+	    margin-top: 30%;
+	    font-size: 22px;
+	}
+	.slider_txt .h2 {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.slider_txt{
+		width: 60%;
+	}
+	.overlay {
+		min-height: 220px;
+	}
+	.about_icon {
+    height: 140px;
+	}
+	.navbar-brand .logo {
+		margin-left: 100%;
+	}
+	.navbar-toggle {
+    position: relative;
+     float: none; 
+    padding: 9px 10px;
+    margin-top: 58px;
+    margin-left: 30px;
+    /* margin-right: 15px; */
+    margin-bottom: -58px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	}
+	.overlay {
+		margin-top: 120px;
+
+	}
+	.starts_slider {
+		width: 80%;
+	}
+	.about li {
+		width: 80%;
+	}
+	.starts_recentupdates {
+		width: 80%;
+	}
+	footer ul li {
+		margin-right: 15px;
+	}
+	.categories li {
+		width: 100%;
+	}
+
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 50%;
+    }
+	.signup-process .signup-icon {
+    float: none;
+	}
+	.community-edition{
+		margin-bottom:20px;
+	}
+	.navbar-default .collapse .login a {
+    width: 36%;
+	}
+	.navbar-brand .logo {
+		margin-left: 50%;
+	}
+	.navbar-toggle {
+		margin-left: -30px;
+	}
+	.slider img {
+		display: none;
+	}
+	.slider_txt {
+		width: 100%;
+	}
+	.about_icon {
+		height: 200px;
+	}
+	.starts_recentupdates li{
+		width: 120%;
+	}
+	.navbar-collapse.in {
+		left: 20%;
+	}
+}
+
