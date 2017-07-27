@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5</title>
+	<link rel="stylesheet" href="js/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.js"></script>
+
+</head>
+
+<body>
+
+<div class="o-section">
+      <div id="tabs" class="c-tabs">
+        <div class="c-tabs-nav">
+          <a href="#" class="c-tabs-nav__link is-active">
+            <i class="fa fa-home"></i>
+            <span>Tab 01</span>
+          </a>
+          <a href="#" class="c-tabs-nav__link">
+            <i class="fa fa-book"></i>
+            <span>Tab 02</span>
+          </a>
+          <a href="#" class="c-tabs-nav__link">
+            <i class="fa fa-heart"></i>
+            <span>Tab 03</span>
+          </a>
+          <a href="#" class="c-tabs-nav__link">
+            <i class="fa fa-calendar"></i>
+            <span>Tab 04</span>
+          </a>
+          <a href="#" class="c-tabs-nav__link">
+            <i class="fa fa-cog"></i>
+            <span>Tab 05</span>
+          </a>
+        </div>
+        <div class="c-tab is-active">
+          <div class="c-tab__content">
+            <h2>Text 1</h2>
+            <p>tab_1 ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo minus voluptate unde tempore eveniet consequuntur in, quod animi libero rem similique pariatur quos, et eum nisi ducimus, architecto voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aspernatur natus dolorem fuga cumque optio saepe corrupti earum. Ipsam quaerat asperiores similique omnis excepturi temporibus ab eum magnam ipsa, odio.</p>
+          </div>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Text 2</h2>
+            <p>tab_2 ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo minus voluptate unde tempore eveniet consequuntur in, quod animi libero rem similique pariatur quos, et eum nisi ducimus, architecto voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aspernatur natus dolorem fuga cumque optio saepe corrupti earum. Ipsam quaerat asperiores similique omnis excepturi temporibus ab eum magnam ipsa, odio.</p>
+          </div>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Text 3</h2>
+            <p>tab_3 ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo minus voluptate unde tempore eveniet consequuntur in, quod animi libero rem similique pariatur quos, et eum nisi ducimus, architecto voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aspernatur natus dolorem fuga cumque optio saepe corrupti earum. Ipsam quaerat asperiores similique omnis excepturi temporibus ab eum magnam ipsa, odio.</p>
+          </div>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Text 4</h2>
+            <p>tab_4 ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo minus voluptate unde tempore eveniet consequuntur in, quod animi libero rem similique pariatur quos, et eum nisi ducimus, architecto voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aspernatur natus dolorem fuga cumque optio saepe corrupti earum. Ipsam quaerat asperiores similique omnis excepturi temporibus ab eum magnam ipsa, odio.</p>
+          </div>
+        </div>
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <h2>Text 5</h2>
+            <p>tab_5 ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo minus voluptate unde tempore eveniet consequuntur in, quod animi libero rem similique pariatur quos, et eum nisi ducimus, architecto voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aspernatur natus dolorem fuga cumque optio saepe corrupti earum. Ipsam quaerat asperiores similique omnis excepturi temporibus ab eum magnam ipsa, odio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<script type="text/javascript">
+(function() {
+
+  'use strict';
+
+  var tabs = function(options) {
+
+    var el = document.querySelector(options.el);
+    var tabNavigationLinks = el.querySelectorAll(options.tabNavigationLinks);
+    var tabContentContainers = el.querySelectorAll(options.tabContentContainers);
+    var activeIndex = 0;
+    var initCalled = false;
+
+
+    var init = function() {
+      if (!initCalled) {
+        initCalled = true;
+        el.classList.remove('no-js');
+
+        for (var i = 0; i < tabNavigationLinks.length; i++) {
+          var link = tabNavigationLinks[i];
+          handleClick(link, i);
+        }
+      }
+    };
+
+ 
+    var handleClick = function(link, index) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        goToTab(index);
+      });
+    };
+
+
+    var goToTab = function(index) {
+      if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
+        tabNavigationLinks[activeIndex].classList.remove('is-active');
+        tabNavigationLinks[index].classList.add('is-active');
+        tabContentContainers[activeIndex].classList.remove('is-active');
+        tabContentContainers[index].classList.add('is-active');
+        activeIndex = index;
+      }
+    };
+
+
+    return {
+      init: init,
+      goToTab: goToTab
+    };
+
+  };
+
+
+  window.tabs = tabs;
+
+})();
+</script> 
+
+<script>
+  var myTabs = tabs({
+    el: '#tabs',
+    tabNavigationLinks: '.c-tabs-nav__link',
+    tabContentContainers: '.c-tab'
+  });
+
+  myTabs.init();
+</script>
+
+
+<form>
+	<fieldset>
+		<div>
+			<label for="firstname">Firstname</label>
+			<input id="firstname" name="firstname" >
+                        <div id="firstnamehelp">Please provide your firstname.</div>
+		</div>
+		<div>
+			<label for="lastname">Lastname</label>
+			<input id="lastname" name="lastname" >
+                        <div id="lastnamehelp">Please provide also your lastname.</div>
+
+		</div>
+		<div>
+			<label for="address">Address</label>
+			<input id="address" name="address">
+                        <div id="addresshelp">Your home or work address.</div>
+		</div>
+	</fieldset>
+</form>
+
+
+
+
+<script>
+
+    var $input = $('<input type="button" value="new button" />').on( "click", function() {
+               $('#firstnamehelp').show();
+               $('#lastnamehelp').show();
+               $('#addresshelp').show();});
+    $input.appendTo($("body"));
+
+
+$("#firstname").mousemove(function(e){$('#firstnamehelp');})
+.hover(function() { $('#firstnamehelp').css('display', 'inline');}, function() { $('#firstnamehelp').hide();})
+
+$("#lastname").mousemove(function(e){$('#lastnamehelp');})
+.hover(function() { $('#lastnamehelp').css('display', 'inline');}, function() { $('#lastnamehelp').hide();})
+
+$("#address").mousemove(function(e){$('#addresshelp');})
+.hover(function() { $('#addresshelp').css('display', 'inline');}, function() { $('#addresshelp').hide();})
+</script>
+
+
+</body>
+</html>
