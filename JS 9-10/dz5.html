@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- title and meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+<title>5</title>
+    
+<!-- css -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/cusel.css" />
+<link rel="stylesheet" type="text/css" href="css/jcarousel.css" >
+<link rel="stylesheet" type="text/css" href="css/jcarousel.connected-carousels.css" >
+  
+<script type="text/javascript" src="js/jquery11.js" ></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js" "></script>
+<script type="text/javascript" src="js/jcarousel.connected-carousels.js" ></script>
+<script type="text/javascript" src="js/cusel25.js"></script>
+<script type="text/javascript" src="js/jScrollPane.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+
+<!-- js -->
+
+<script>
+    $(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    }); // end ready
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+jQuery(".niceCheck").mousedown(
+function() {
+     changeCheck(jQuery(this));
+});
+
+
+jQuery(".niceCheck").each(
+function() {
+     changeCheckStart(jQuery(this));
+});
+
+                                        });
+
+function changeCheck(el)
+
+{
+     var el = el,
+          input = el.find("#inputjs").eq(0);
+   	 if(!input.attr("checked")) {
+		el.css("background-position","0 -17px");	
+		input.attr("checked", true)
+	} else {
+		el.css("background-position","0 0");	
+		input.attr("checked", false)
+	}
+     return true;
+}
+
+function changeCheckStart(el)
+
+{
+var el = el
+
+		el.css("background-position","0 0px");	
+		
+     return true;
+}
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    cuSel({changedEl:'select'});
+});
+</script>
+</head>
+
+<body>
+
+
+        <div class="wrapper-c">
+           <div class="connected-carousels">
+                <div class="stage">
+                    <div class="carousel carousel-stage">
+                        <ul>
+                            <li><img src="img/img1.jpg"  width="300" height="200" alt=""></li>
+                            <li><img src="img/img2.jpg"  width="300" height="200" alt=""></li>
+                            <li><img src="img/img3.jpg"  width="300" height="200" alt=""></li>
+                            <li><img src="img/img4.jpg"  width="300" height="200" alt=""></li>
+                            <li><img src="img/img5.jpg"  width="300" height="200" alt=""></li>
+                            <li><img src="img/img6.jpg"  width="300" height="200" alt=""></li>
+                        </ul>
+                    </div>
+                    <p class="photo-credits">
+                        Photos by <a href="javascript:if(confirm(%27http://www.mw-fotografie.de/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.mw-fotografie.de/%27" tppabs="http://www.mw-fotografie.de/">Marc Wiegelmann</a>
+                    </p>
+                    <a href="#" class="prev prev-stage"><span>&lsaquo;</span></a>
+                    <a href="#" class="next next-stage"><span>&rsaquo;</span></a>
+                </div>
+
+                <div class="navigation">
+                    <a href="#" class="prev prev-navigation">&lsaquo;</a>
+                    <a href="#" class="next next-navigation">&rsaquo;</a>
+                    <div class="carousel carousel-navigation">
+                        <ul>
+                            <li><img src="img/img1_thumb.jpg"  width="50" height="50" alt=""></li>
+                            <li><img src="img/img2_thumb.jpg"  width="50" height="50" alt=""></li>
+                            <li><img src="img/img3_thumb.jpg"  width="50" height="50" alt=""></li>
+                            <li><img src="img/img4_thumb.jpg"  width="50" height="50" alt=""></li>
+                            <li><img src="img/img5_thumb.jpg"  width="50" height="50" alt=""></li>
+                            <li><img src="img/img6_thumb.jpg"  width="50" height="50" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+<div id="wrapper">
+
+<nav>
+    <ul class="content clearfix">
+        <li><a href="#">Nav 1</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li class="dropdown">
+            <a href="#">Nav 3</a>
+            <ul class="sub-menu">
+                <li><a href="#">Nav 3.1</a></li>
+                <li><a href="#">Nav 3.2</a></li>
+                <li><a href="#">Nav 3.3</a></li>
+                <li class="dropdown">
+                    <a href="#">Nav 3.4</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Nav 3.4.1</a></li>
+                        <li class="dropdown">
+                            <a href="#">Nav 3.4.2</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Nav 3.4.2.1</a></li>
+                                <li><a href="#">Nav 3.4.2.2</a></li>
+                                <li><a href="#">Nav 3.4.2.3</a></li>
+                                <li><a href="#">Nav 3.4.2.4</a></li>
+                                <li><a href="#">Nav 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav 3.4.3</a></li>
+                        <li><a href="#">Nav 3.4.4</a></li>
+                        <li><a href="#">Nav 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nav 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nav 4</a></li>
+        <li><a href="#">Nav 5</a></li>
+    </ul>
+</nav>
+
+<div id="main">
+    <div class="content" style="height: 100px;">
+        <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+    </div>
+</div>
+
+<div style="height: 300px;    padding: 20px;">
+<div style="float: left; width: 300px; height: 100px;">
+<span style="display: flex;">Select (CuSel)</span><tr>
+	<select class="sel80" id="country" name="country" tabindex="2">
+	<option value="1">x-option_01</option>
+	<option value="2">y-option_02</option>
+	<option value="3">z-option_01</option>
+	<option value="4">option_04</option>
+	<option value="5">option_05</option>
+	<option value="6">option_06</option>
+	<option value="7">option_07</option>
+	<option value="12">long-long option_08</option>
+	<option selected="selected" value="1000">Select...</option>
+	</select>
+
+</div>
+
+
+
+<div class="csschechbox" id="csschechbox_div" style="float: left; width: 300px; height: 100px;">
+<span> CSS chechbox</span>
+	<div>
+		<input type="checkbox" id="test-check1">
+		<label for="test-check1">Option_1</label>	
+	</div>
+	<div>
+		<input type="checkbox" id="test-check2">
+		<label for="test-check2">Option_2</label>	
+	</div>
+</div>
+
+<div id="js" style="float: left; width: 300px; height: 100px;">
+<span> Javascript_checkbox </span>
+<span class="niceCheck"  style="background-position: 0px -17px;"><input id="inputjs" type="checkbox"></span>
+</div>
+
+
+</div>
+</body>
+</html>
