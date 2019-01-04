@@ -98,7 +98,7 @@
   height: 36px;
   width: 150px;
   border-radius: 5px;
-  background: yellow;
+  background: orange;
   color: green;
   font-family: verdana;
   font-size: 16px;
@@ -107,5 +107,6 @@
   text-decoration: none;
 }
 .zakaz :hover {
-  color: orange;
+    color: black;
+    font-size: 1.1em;
 }
