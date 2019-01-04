@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background: orange;
+  padding: 20px;
+}
+.plashka {
+  position: fixed;
+  z-index: 1;
+  bottom: 5%;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background: lightgreen;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.sizes {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.8%;
+  padding: 0.5% 0;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  background: #fff;
+  border: solid yellow 3px;
+}
+.sizes img {
+  max-width: 40px;
+  max-height: 36px;
+}
+.desktop, .tablet, .phone {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 36px;
+  border-radius: 5px;
+  margin-top: -1.5%;
+}
+.desktop:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 120%;
+  z-index: 1;
+  background: rgba(255,255,230,0.9);
+  font-family: verdana;
+  font-size: 11px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+}
+.tablet:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 120%;
+  z-index: 1;
+  background: rgba(255,255,230,0.9);
+  font-family: verdana;
+  font-size: 11px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+}
+.phone:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 120%;
+  z-index: 1;
+  background: rgba(255,255,230,0.9);
+  font-family: verdana;
+  font-size: 11px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+}
+.desktop :hover {
+  /* background: yellow; */
+  max-width: 107%;
+  max-height: 107%;
+}
+.tablet :hover {
+  /* background: yellow; */
+  max-width: 107%;
+  max-height: 107%;
+}
+.phone :hover {
+  /* background: yellow; */
+  max-width: 107%;
+  max-height: 107%;
+}
+.zakaz {
+  display: flex;
+  margin: 0.8%;
+  padding-top: 1%;
+  height: 36px;
+  width: 150px;
+  border-radius: 5px;
+  background: yellow;
+  color: green;
+  font-family: verdana;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.zakaz :hover {
+  color: orange;
+}
